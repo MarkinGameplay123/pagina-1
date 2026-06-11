@@ -1,11 +1,189 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gerador Sustentável Stirling</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0f2b1a, #1a3a28);
+            color: #e0f2e9;
+            line-height: 1.6;
+        }
+        header {
+            background: #0a1f14;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid #00ff9d;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.8em;
+            color: #00ff9d;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        .subtitle {
+            color: #a3e6c8;
+            font-size: 1.3em;
+        }
+        nav {
+            background: #11251c;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #00ff9d;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 60px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .objective {
+            background: #1a3a28;
+        }
+        .results {
+            background: #143022;
+        }
+        .justification {
+            background: #1a3a28;
+        }
+        h2 {
+            color: #00ff9d;
+            border-bottom: 3px solid #00ff9d;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 15px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        li:before {
+            content: "⚡";
+            position: absolute;
+            left: 0;
+            color: #00ff9d;
+        }
+        .positive {
+            color: #a3e6c8;
+        }
+        .warning {
+            color: #ffcc80;
+        }
+        .card {
+            background: #0f2b1a;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border: 2px solid #00ff9d;
+        }
+        footer {
+            background: #0a1f14;
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9em;
+            border-top: 4px solid #00ff9d;
+        }
+        .hero {
+            background: url('https://picsum.photos/id/1015/1920/600') center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 31, 20, 0.75);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Gerador Sustentável Stirling</h1>
+        <p class="subtitle">Reaproveitamento Térmico para Eficiência Energética em Borracharias</p>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1 style="font-size: 3.5em; margin: 0;">ENERGIA DO CALOR QUE VOCÊ JÁ DESPERDIÇA</h1>
+        </div>
+    </div>
+
+    <nav>
+        <a href="#objetivo">Objetivo</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#justificativas">Justificativas</a>
+    </nav>
+
+    <section id="objetivo" class="objective">
+        <h2>Objetivo do Projeto</h2>
+        <div class="card">
+            <ul>
+                <li>Criar um protótipo funcional de motor Stirling econômico.</li>
+                <li>Identificar o ponto mais adequado para a instalação mapeando o fluxo de calor em uma borracharia.</li>
+                <li>Determinar a viabilidade econômica (ROI) da economia de energia produzida.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="resultados" class="results">
+        <h2>Resultados Esperados</h2>
+        
+        <h3 style="color: #a3e6c8;">Aspectos Positivos</h3>
+        <ul class="positive">
+            <li><strong>Sustentabilidade:</strong> diminuição da pegada de carbono do local.</li>
+            <li><strong>Economia:</strong> previsão de redução de 10% a 15% no consumo de energia elétrica da rede.</li>
+            <li><strong>Simplicidade:</strong> requer pouca manutenção técnica complexa.</li>
+        </ul>
+
+        <h3 style="color: #ffcc80; margin-top: 40px;">Aspectos a Serem Observados</h3>
+        <ul class="warning">
+            <li><strong>Eficiência Térmica:</strong> necessidade de um isolamento de alta qualidade para evitar a perda de calor para o ambiente.</li>
+            <li><strong>Vedação:</strong> Para manter a pressão interna, o sistema deve estar completamente vedado.</li>
+        </ul>
+    </section>
+
+    <section id="justificativas" class="justification">
+        <h2>Justificativas</h2>
+        <div class="card">
+            <p>O motor Stirling representa uma alternativa econômica e de longa duração, uma vez que a combustão ocorre externamente e o sistema é selado. Administrativamente, isso significa uma diminuição direta nos custos fixos da empresa e uma operação mais sustentável, em conformidade com as tendências de ESG (Ambiental, Social e Governança).</p>
+            
+            <h3 style="margin-top: 30px;">Objetivos do Projeto</h3>
+            <ul>
+                <li>Criar um protótipo funcional de motor Stirling econômico.</li>
+                <li>Identificar o ponto mais adequado para a instalação mapeando o fluxo de calor em uma borracharia.</li>
+                <li>Determinar a viabilidade econômica (ROI) da economia de energia produzida.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Projeto de Gerador Stirling para Borracharias • Reaproveitamento Térmico • Eficiência Energética</p>
+        <p>Para quem ainda acha que desperdiçar calor é normal.</p>
+    </footer>
 </body>
 </html>
